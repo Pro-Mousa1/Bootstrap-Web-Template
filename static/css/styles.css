@@ -1,0 +1,142 @@
+.banner-section{
+    height: 100vh;
+    background-image: url("../images/images.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.banner-container h1{
+    color: #ffff;
+    font-size: 40px;
+    font-family: KacstTitle, serif;
+}
+.banner-container p{
+    color: rgba(251, 246, 255, 0.96);
+    font-size: 20px;
+    text-align: center;
+}
+.btn-signup{
+    width: 200px;
+    border: unset;
+    border-radius: 100px;
+    background-color: rgba(49,237,245,0.96);
+    color: white;
+    height: 30px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.btn-signin{
+    width: 200px;
+    border: unset;
+    border-radius: 100px;
+    background-color: rgba(87, 125, 255, 0.96);
+    color: rgba(249, 89, 12, 0.96);
+    height: 30px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.about-section,.about-container{
+    height: 100vh;
+}
+.top-about-container{
+    height: 50vh;
+    background-color: rgba(245,114,11,0.96);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom:20px;
+}
+.top-about-container h2,h4{
+    color: white;
+}
+.top-about-container p{
+    color: white;
+    text-align: center;
+}
+.top-about-container button{
+    padding: 10px;
+    color: rgba(247, 87, 12, 0.96);
+    background-color: #ffffff;
+    border-radius: 100px;
+    border: unset;
+    width: 150px;
+    cursor: pointer;
+}
+.about-title-div{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-title-div h1{
+    color: rgba(245,114,29,0.96);
+}
+.bottom-about-container{
+    height: 50vh;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.about-cards-div{
+    display: flex;
+}
+.card{
+    width: 25%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card img{
+    width: 80px;
+}
+.gallery-section{
+    display: flex;
+}
+.gallery-top-div{
+    height: 70vh;
+}
+.gallery-top-div img{
+    width: 33%;
+    height: 35vh;
+}
+.gallery-bottom-div{
+    display: flex;
+    height: 30vh;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-bottom-div h1{
+    color: white;
+}
+.gallery-bottom-div button{
+    width: 100px;
+    height: 20px;
+    border: unset;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    margin-left: 40%;
+}
+.comments-section{
+    color: #ffffff;
+    height: 30vh;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+.comments-div h6{
+    color: grey;
+}
